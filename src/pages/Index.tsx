@@ -220,6 +220,15 @@ const Index = () => {
             Наши результаты
           </h2>
 
+          {/* Infographic */}
+          <div className="mb-16 text-center">
+            <img
+              src="/img/963ec139-a7ab-4b45-9f95-4683859cec20.jpg"
+              alt="Инфографика результатов работы агентства"
+              className="mx-auto rounded-lg shadow-lg max-w-2xl w-full"
+            />
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {results.map((result, index) => (
               <Card
